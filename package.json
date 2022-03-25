@@ -1,0 +1,28 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "https://webpack.js.org/",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "prod": "webpack --mode=production",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatianaMaksimova/webpack-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatianaMaksimova/webpack-test/issues"
+  },
+  "homepage": "https://github.com/TatianaMaksimova/webpack-test#readme",
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
